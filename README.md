@@ -16,7 +16,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 First you need to require the gem:
 
-    require 'calculator'
+    require 'dubcalculator'
 
 Then you can use the gem:
 

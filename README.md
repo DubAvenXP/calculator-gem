@@ -1,4 +1,4 @@
-# Calculator
+# Dubcalculator
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/calculator`. To experiment with that code, run `bin/console` for an interactive prompt.
 
@@ -6,11 +6,11 @@ Welcome to your new gem! In this directory, you'll find the files you need to be
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add calculator
+    $ bundle add dubcalculator
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install calculator
+    $ gem install dubcalculator
 
 ## Usage
 
@@ -20,10 +20,10 @@ First you need to require the gem:
 
 Then you can use the gem:
 
-    Calculator::Basic.add(1, 2)# => 3
-    Calculator::Basic.subtract(1, 2)# => -1
-    Calculator::Basic.multiply(1, 2)# => 2
-    Calculator::Basic.divide(8, 2)# => 4
+    Dubcalculator::Basic.add(1, 2)# => 3
+    Dubcalculator::Basic.subtract(1, 2)# => -1
+    Dubcalculator::Basic.multiply(1, 2)# => 2
+    Dubcalculator::Basic.divide(8, 2)# => 4
 
 
 ## Development

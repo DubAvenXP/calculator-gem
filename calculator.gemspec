@@ -12,13 +12,10 @@ Gem::Specification.new do |spec|
     spec.homepage = 'https://github.com/DubAvenXP/ruby-basic-calculator'
     spec.license = 'MIT'
     spec.platform = Gem::Platform::RUBY
-    spec.required_ruby_version = '>= 2.6.0'
+    spec.required_ruby_version = '>= 2.7.2'
 
     spec.metadata['homepage_uri'] = spec.homepage
     spec.metadata['source_code_uri'] = 'https://github.com/DubAvenXP/ruby-basic-calculator'
-
-    spec.add_development_dependency 'rspec', '~> 3.2'
-    spec.add_development_dependency 'rubocop', '~> 1.20.0'
 
     spec.files = Dir.chdir(__dir__) do
         `git ls-files -z`.split("\x0").reject do |f|
@@ -30,4 +27,7 @@ Gem::Specification.new do |spec|
     spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
     spec.require_paths = ['lib']
     spec.metadata['rubygems_mfa_required'] = 'true'
+
+    spec.add_development_dependency 'rspec', '~> 3.2'
+    spec.add_development_dependency 'rubocop', '~> 1.20.0'
 end

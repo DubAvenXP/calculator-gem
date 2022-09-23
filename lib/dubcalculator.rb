@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'calculator/version'
+require_relative 'dubcalculator/version'
 
 # This is a calculator gem
 module Dubcalculator

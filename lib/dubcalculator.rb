@@ -3,7 +3,7 @@
 require_relative 'calculator/version'
 
 # This is a calculator gem
-module Calculator
+module Dubcalculator
     # This is the basic class for the calculator
     class Basic
         # This method adds two numbers

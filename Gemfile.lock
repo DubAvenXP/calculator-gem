@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    calculator (1.0.0)
+    duba_calculator (1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -52,7 +52,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  calculator!
+  duba_calculator!
   rake (~> 13.0)
   rspec (~> 3.2)
   rubocop (~> 1.20.0)

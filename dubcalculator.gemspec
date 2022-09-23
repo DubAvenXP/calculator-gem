@@ -3,8 +3,8 @@
 require_relative 'lib/calculator/version'
 
 Gem::Specification.new do |spec|
-    spec.name = 'calculator'
-    spec.version = Calculator::VERSION
+    spec.name = 'dubcalculator'
+    spec.version = Dubcalculator::VERSION
     spec.authors = ['Alejandro Dubon']
     spec.email = ['alejandrodubon88@gmail.com']
     spec.summary = 'This is a simple calculator gem that can add, subtract, multiply, and divide.'

@@ -16,7 +16,17 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+First you need to require the gem:
+
+    require 'calculator'
+
+Then you can use the gem:
+
+    Calculator::Basic.add(1, 2)# => 3
+    Calculator::Basic.subtract(1, 2)# => -1
+    Calculator::Basic.multiply(1, 2)# => 2
+    Calculator::Basic.divide(8, 2)# => 4
+
 
 ## Development
 
@@ -26,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/calculator.
+Bug reports and pull requests are welcome on GitHub at https://github.com/DubAvenXP/calculator-gem.
 
 ## License
 
